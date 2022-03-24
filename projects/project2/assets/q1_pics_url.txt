@@ -1,0 +1,6 @@
+"./assets/cerberus.png"
+"./assets/faun.png"
+"./assets/genie.png"
+"./assets/griffin.png"
+"./assets/minotaur.png"
+"./assets/unicorn.png"

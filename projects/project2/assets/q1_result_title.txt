@@ -1,0 +1,6 @@
+Cerberus
+Faun
+Genie
+Griffin
+Minotaur
+Unicorn
