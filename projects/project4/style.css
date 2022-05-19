@@ -1,0 +1,838 @@
+:root {
+    --main-color: rgb(3, 5, 139);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lota Grotesque Alt\ 3,sans-serif;
+}
+
+/*Landing Page Style*/
+
+div.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 106px;
+    padding: 0 25px;
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgb(0 0 0 / 12%);
+}
+
+div.banner {
+    background-image: url("./assets/pics/pexels-max-vakhtbovych-6933772.jpg");
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    min-height: 40vw;
+    width: 100%;
+}
+
+div.banner img {
+    height: 130%;
+    width: auto;
+}
+
+div.content {
+    padding: 14%;
+}
+
+div.banner h1 {
+    display: table;
+    padding: 16px 29px;
+    margin: 0% auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 80px;
+    font-weight: 600;    
+}
+
+.logo-black {
+    height: 85%;
+    width: auto;
+}
+
+div#reg-btn button {
+    margin-right: 65px;
+    box-sizing: border-box;
+    height: 48px;
+    color: #fff;
+    background-color: #000;
+    font-size: 18px;
+    transition: .2s;
+    border-radius: 8px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 48px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+div#reg-btn button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+div#message {
+    background-color: #e1b46e;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2#sample-title {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+div#display-homes {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+div.example {
+    height: 50vh;
+    border-radius: 52px;
+}
+
+div#r1 {
+    margin: 60px 20px 20px 200px;
+}
+
+div#r2 {
+    margin: 60px 200px 20px 20px;
+}
+
+.why-background {
+    background-color: darkgray;
+    padding-bottom: 120px;
+    background-image: url("./assets/pics/office-stuff.png");
+    background-position: bottom;
+}
+
+#why-content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+#why-content h2{
+    color: #f2f2f2;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 70px;
+}
+
+#why-content ul {
+    list-style-type: none;
+}
+
+#why-content ul li {
+    font-size: 18px;
+    color: #f2f2f2;
+    border-top: 2px solid #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+#why-content ul li:last-child {
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+#why-content ul li img {
+    float: right;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-background {
+    background-color: #dbb694;
+    padding-bottom: 100px;
+}
+
+.slideshow-container h2 {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    font-size: 30px;
+    
+}
+  
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 733px;
+    width: 1200px;
+    object-fit: cover;
+}
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    text-shadow: black 0px 0px 1.5px;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+  /* Caption text */
+.text {
+    color: #f2f2f2;
+    text-shadow: black 0px 0px 1px;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+div.signup-opac {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+div.signup-form-bkg {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    background-image: url("./assets/pics/pexels-ron-lach-10044382.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+div.sf-lc {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0 50px 50px 0;
+    position: relative;
+}
+
+
+div.signup-form-bkg form h1 {
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+div.form-container label {
+    margin-left: 20px;
+    color: #fff;
+}
+
+div.form-container p {
+    margin: 20px 20px 20px 25px;
+    color: #fff;
+}
+
+div.form-container a {
+    color: dodgerblue;
+}
+
+div.form-container hr {
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    margin: 0 0 25px 24px;
+}
+
+div.acct-type {
+    margin: 0 0 20px 20px;
+}
+
+div.acct-type p {
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+}
+
+div.acct-type label {
+    margin: 0 10px;
+}
+
+/* Full-width input fields */
+div.form-container input[type=text], div.form-container input[type=password] {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: flex;
+    border: none;
+    background: #f1f1f1;
+    margin-left: 20px;
+}
+  
+div.form-container input[type=text]:focus, div.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button#regbtn-land, button#login-land, button.pf-submit {
+    background-color: var(--main-color);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 8px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+div.clear hr {
+    margin: 0 0 8px 25px;
+}
+
+button#login-land {
+    margin: 0 0 0 20px;
+}
+
+button#regbtn-land:hover, button#login-land:hover {
+    opacity:1;
+}
+
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+div.form-container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clear::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .signupbtn {
+    width: 100%;
+    }
+}
+
+div.sf-rc {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+div.signup-message {
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0 0 40px 18px;
+}
+
+div.sf-rc h1 {
+    color: #fff;
+    padding: 20px 20px 0 0;
+    font-size: 62px;
+}
+
+/*Buyer and Seller Portal Pages Styles*/
+
+.side-nav .logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.side-nav {
+    position: fixed;
+    height: 100%;
+    width: 345px;
+    left: 0;
+    top: 0;
+    background: var(--main-color);
+}
+
+.logo {
+    width: 100%;
+    height: 60px;
+    padding: 1rem 0rem 1rem 2rem;
+    margin: 20px 0 35px 0;
+
+}
+
+.side-nav ul {
+    list-style-type: none;
+}
+
+.side-nav li {
+    width: 100%;
+    margin-bottom: 1.3rem;
+    padding-left: 2rem;
+    height: 60px;
+
+}
+
+.side-nav li:hover, .side-nav li:hover a {
+    background-color: #fff;
+    color: dodgerblue;
+}
+
+.side-nav ul li a {
+    color: #fff;
+    font-size: 22px;
+    padding: 0 auto;
+    text-decoration: none;
+}
+
+.side-nav ul li img {
+    margin: 0 18px 0 18px;
+}
+
+.main-container {
+    margin: 0 50px 0 345px;
+}
+
+.property-list {
+    margin: 150px 0 0 50px;
+}
+
+.pc-row {
+    display: flex;
+}
+
+.property-card {
+    padding: 40px 0 40px 0;
+    border-top: 2px solid #e6e6e6;
+}
+
+.property-card2 {
+    padding: 40px 0 40px 0;
+    border: 2px solid #e6e6e6;
+}
+
+.pc-col1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px 0 15px;
+}
+
+.pc-col1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.pc-col2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 10px 0 10px;
+}
+
+.property-content {
+    padding-left: 20px;
+}
+
+.property-details {
+    margin-top: 15px;
+}
+
+.property-btn {
+    margin: 200px 50px 0 0;
+    text-align: right;
+}
+
+.property-btn a {
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid black;
+    min-width: 330px;
+}
+
+.no-property{
+    width: 747px;
+    padding: 40px 0 40px 0;
+    border: 2px solid #e6e6e6;
+    margin: 20px;
+}
+
+.no-property h3 {
+    padding-left: 20px;
+}
+
+.add-btn {
+    margin: 0px 50px 0 0;
+    text-align: right;
+}
+
+.add-btn a {
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid black;
+    min-width: 330px;
+}
+
+.no-property-card {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+
+#frm-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    margin-left: 800px;
+}
+
+#frm-box:target{
+    visibility: visible;
+    opacity: 1;
+    background:white;
+    width: 700px;
+    height: 700px;
+    max-width: 90%;
+    padding: 4px;
+    text-align: left;
+}
+
+.frm-close {
+    float: right;
+}
+
+.wrapper a{
+    text-decoration: none;
+    background-color: transparent;
+    width: 8vh;
+    border-radius: 3px;
+    
+
+}
+
+.modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modalcontent{
+    position: relative;
+    background:white;
+    width: 700px;
+    height: 700px;
+    max-width: 90%;
+    padding: 4px;
+    text-align: left;
+}
+a{
+    font-size: 21px;
+    font-weight: 600;
+}
+.modalclose{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 0px;
+    right: 0px;
+    color: black;
+    text-decoration: none;
+    
+}
+.features{
+    margin-left: 15px;
+    text-align: left;
+}
+
+/*Login-Register Page Style*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./assets/pics/pexels-carlos-arribas-165637.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.btn-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f ;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+div#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group {
+    top: 196px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.checkbox {
+    margin: 30px 10px 30px 0;
+}
+
+.input-group span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login-page {
+    left: 50px;
+}
+
+#register-page {
+    left: 450px;
+}
+
+.logo#lr-page {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+/*finish-registration styling*/
+h1#welcome {
+    text-align: center;
+}
+
+form#fin-page {
+    margin: 20px 200px 200px;
+}
+
+form#fin-page h1 {
+    text-align: center;
+}
+
+div.form-container#fin-form label {
+    margin-left: 20px;
+    color: black;
+}
+
+div.form-container#fin-form p {
+    margin: 20px 20px 20px 123px;
+    color: black;
+}
+
+div.form-container a {
+    color: dodgerblue;
+}
+
+div.form-container#fin-form hr {
+    width: 90%;
+    border: 1px solid black;
+    margin: 20px 0 25px 122px;
+}
+
+div.acct-type2 {
+    margin: 0 0 20px 140px;
+}
+
+div.acct-type2 p#a-type {
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+}
+
+div.acct-type2 label {
+    margin: 0 10px;
+}
+
+/* Full-width input fields */
+div.form-container#fin-form input[type=text], div.form-container#fin-form input[type=password], div.form-container#fin-form input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: flex;
+    border: none;
+    background: #f1f1f1;
+    margin-left: 20px;
+}
+  
+div.form-container input[type=text]:focus, div.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button#regbtn-fin, button#login-fin {
+    background-color: var(--main-color);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 8px 124px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    opacity: 0.9;
+}
+
+div.clear2 hr {
+    margin: 0 0 8px 25px;
+}
+
+button#login-fin {
+    margin: 0 0 0 20px;
+}
+
+button#regbtn-fin:hover, button#login-fin:hover {
+    opacity:1;
+}
+
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+div.form-container#fin-form {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clear2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .signupbtn {
+    width: 100%;
+    }
+}
+
+div.inputs {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 50px 15px 50px;
+}
+
+div.inputs-lc, div.inputs-rc {
+    min-width: 550px;
+}
