@@ -2,7 +2,7 @@
 
 $server = "localhost";
 $username = "root";
-$password = "npunjani3";
+$password = "";
 $database = "metaplot";
 
 $conn = mysqli_connect($server, $username, $password, $database);
